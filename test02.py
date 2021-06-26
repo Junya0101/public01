@@ -8,10 +8,10 @@ def fibo(n):
     return fibo(n - 1) + fibo(n - 2)
 
 def fibo2(n):
-    if n == 0:
-        return 1
-    if n == 1:
-        return 1
+    # if n == 0:
+    #     return 1
+    # if n == 1:
+    #     return 1
     x1 = 1
     x2 = 1
     tmp = 0
