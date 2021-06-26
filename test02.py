@@ -1,3 +1,5 @@
+import time
+
 a = 200
 
 def fibo(n):
@@ -13,5 +15,12 @@ print(a)
 print(a * 3)
 
 print("ばーか")
-for i in range(10):
-    print(fibo(i))
+
+t0 = time.time()
+
+# print(fibo(30))
+# print(fibo(33))
+print(fibo(34))
+# print(fibo(40))
+
+print(time.time() - t0, "秒かかった")
