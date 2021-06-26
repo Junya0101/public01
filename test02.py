@@ -5,3 +5,5 @@ a = a + a * 100
 print(a)
 
 print(a * 3)
+
+print("ばーか")
