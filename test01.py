@@ -1,5 +1,8 @@
 import cv2
+import numpy as np
 
-print("Hello Python!!")
+img = cv2.imread("images/test01.jpg")
 
-print("yeah")
+# print(img)
+
+print(img.shape)
